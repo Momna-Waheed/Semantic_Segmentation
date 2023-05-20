@@ -10,8 +10,8 @@ Contents
 * [Dataset](##DataSet)
 * [Augmentation](##Augmentation)
 * [Methodology and Results](##MethodologyandResults)
-	* [VGGNet-based UNet architecture](###VGGNet-based UNet architecture)	
-	* [MobileNet-based UNet architecture](###MobileNet-based UNet architecture)
+	* [VGGNet-based UNet architecture](### VGGNet-based UNet architecture)	
+	* [MobileNet-based UNet architecture](### MobileNet-based UNet architecture)
 * [Model Testing and Enviornment setting](##ModelTestingandEnviornmentsetting)
 <!--te-->
 
