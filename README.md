@@ -80,11 +80,13 @@ In the first approach, we utilized a VGGNet-based UNet architecture for semantic
 The VGGNet-based UNet achieved an accuracy of 89\% on the test dataset. The accuracy metric provides an assessment of how well the model classifies each pixel into the predefined classes.
 
 Both qualitative and quantitative results are presented to evaluate the segmentation performance. Qualitative results include visualizations of the segmented images, highlighting the model's ability to accurately classify different entities. Quantitative results involve metrics such as intersection over union (IoU) and pixel accuracy, which provide an objective evaluation of the segmentation performance.
+![A3-1](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/61114dfa-b1f8-4f4a-8ed1-2760ccc92fc0)
+![ACC1](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/0ec62ba0-957d-47cf-876f-b0b487611cbb)
+![iou1](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/2df11b65-c572-4e2d-977a-e36ac1d14a6c)
+![Loss1](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/67b4ce24-777b-41ce-8cab-08f1ae47257c)
+![out1](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/898d6aec-c0d9-4acb-817c-1e60cc82aedf)
 
-![resnetAcc](https://user-images.githubusercontent.com/59650991/236348040-257d6977-bd10-413c-8265-e0ad59651854.PNG)
-![ResnetLoss](https://user-images.githubusercontent.com/59650991/236348066-20cc5772-9a5a-4c63-a001-8d766ad8ca04.PNG)
-![resnetregg](https://user-images.githubusercontent.com/59650991/236348089-70ca7d2b-3883-48c2-94ca-f5a8a13e2495.PNG)
-![Resnetclass](https://user-images.githubusercontent.com/59650991/236348110-44ae6633-1d07-4e5c-8947-770916b974e8.PNG)
+
 
 ### MobileNet-based UNet architecture
 In the second approach, we used a MobileNet-based UNet architecture for semantic segmentation. The MobileNet backbone was incorporated into the UNet architecture, leveraging its lightweight and efficient design. The model was trained for 10 epochs using the augmented dataset.
@@ -93,11 +95,14 @@ The MobileNet-based UNet demonstrated superior performance with an accuracy of 9
 
 Similar to the first approach, both qualitative and quantitative results are provided to evaluate the segmentation outcomes. Qualitative results visually illustrate the accurate segmentation of various entities. Quantitative metrics, such as IoU and pixel accuracy, provide an objective evaluation of the model's performance.
 
-![ENLoss](https://user-images.githubusercontent.com/59650991/236348302-86ab8d7f-fc86-4066-ad88-524e943a8883.PNG)
-![ENAcc](https://user-images.githubusercontent.com/59650991/236348317-72fef089-560d-4f2d-8bfc-d3dc1f4b7d9d.PNG)
-![ENClass](https://user-images.githubusercontent.com/59650991/236348341-f8976ea8-ffd8-454a-ab1b-3efcca93e123.PNG)
-![ENReg](https://user-images.githubusercontent.com/59650991/236348348-ff95dd13-d493-49bf-879c-8c4e08fac363.PNG)
 
+
+![rep2](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/1cbc4f29-b8d2-4f29-afaf-b1ddf9c8d8b4)
+![ACC2](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/d512cff5-97d7-4204-8d16-c0f9cb5ecc2e)
+![cm2](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/d68c388b-784e-4427-b657-81541d8efc5f)
+![iou2](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/08a60adc-6411-432a-81b1-5b7349d00137)
+![Loss2](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/3bdcef71-b32a-4051-8c22-bdefa2934745)
+![out2](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/fb782902-0eb2-4688-8dc1-61754927b39d)
 
 # Model Testing and Enviornment setting
 Step by step guideline to execute the model has been provided in the attached notebook along with the all the dependancies and required libraries
