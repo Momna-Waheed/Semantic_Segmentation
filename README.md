@@ -80,12 +80,7 @@ In the first approach, we utilized a VGGNet-based UNet architecture for semantic
 The VGGNet-based UNet achieved an accuracy of 89\% on the test dataset. The accuracy metric provides an assessment of how well the model classifies each pixel into the predefined classes.
 
 Both qualitative and quantitative results are presented to evaluate the segmentation performance. Qualitative results include visualizations of the segmented images, highlighting the model's ability to accurately classify different entities. Quantitative results involve metrics such as intersection over union (IoU) and pixel accuracy, which provide an objective evaluation of the segmentation performance.
-![A3-1](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/61114dfa-b1f8-4f4a-8ed1-2760ccc92fc0)
-![ACC1](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/0ec62ba0-957d-47cf-876f-b0b487611cbb)
-![iou1](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/2df11b65-c572-4e2d-977a-e36ac1d14a6c)
-![Loss1](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/67b4ce24-777b-41ce-8cab-08f1ae47257c)
-![out1](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/898d6aec-c0d9-4acb-817c-1e60cc82aedf)
-
+![ACC1](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/07c0d023-33af-4f88-9f5c-0c4b6a045801)
 
 
 ### MobileNet-based UNet architecture
