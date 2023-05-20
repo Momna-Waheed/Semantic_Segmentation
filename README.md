@@ -94,15 +94,13 @@ In the second approach, we used a MobileNet-based UNet architecture for semantic
 The MobileNet-based UNet demonstrated superior performance with an accuracy of 91\% on the test dataset, surpassing the accuracy achieved by the VGGNet-based UNet.
 
 Similar to the first approach, both qualitative and quantitative results are provided to evaluate the segmentation outcomes. Qualitative results visually illustrate the accurate segmentation of various entities. Quantitative metrics, such as IoU and pixel accuracy, provide an objective evaluation of the model's performance.
-
-
-
-![rep2](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/1cbc4f29-b8d2-4f29-afaf-b1ddf9c8d8b4)
-![ACC2](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/d512cff5-97d7-4204-8d16-c0f9cb5ecc2e)
-![cm2](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/d68c388b-784e-4427-b657-81541d8efc5f)
-![iou2](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/08a60adc-6411-432a-81b1-5b7349d00137)
-![Loss2](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/3bdcef71-b32a-4051-8c22-bdefa2934745)
-![out2](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/fb782902-0eb2-4688-8dc1-61754927b39d)
+![rep2](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/5808e82c-c41f-475a-a9d7-3b441da9531b)
+![ACC2](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/dc0d3bf2-98bb-4fb1-bf41-d2c450bf275f)
+![cm2](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/89e2e311-5897-4ac7-958d-6f181d96e012)
+![dice2](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/979d639f-757b-4d67-9ccc-cc3c2e98cc4d)
+![iou2](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/d2bb7527-4bac-41c2-af93-45b4cde666e5)
+![Loss2](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/217f5fa1-30bc-4dff-9449-ec5677535697)
+![out2](https://github.com/Momna-Waheed/Semantic_Segmentation/assets/59650991/eb1d8be1-5340-4a30-96d6-229378c4090f)
 
 # Model Testing and Enviornment setting
 Step by step guideline to execute the model has been provided in the attached notebook along with the all the dependancies and required libraries
