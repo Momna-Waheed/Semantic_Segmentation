@@ -8,9 +8,10 @@ Contents
 <!--ts-->
 * [Goal](##Goal)
 * [Dataset](##DataSet)
+* [Augmentation](##Augmentation)
 * [Methodology and Results](##MethodologyandResults)
-	* [ResNet18](###ResNet18)	
-	* [EfficinetNet](###EfficinetNet)
+	* [VGGNet-based UNet architecture](###VGGNet-based UNet architecture)	
+	* [MobileNet-based UNet architecture](###MobileNet-based UNet architecture)
 * [Model Testing and Enviornment setting](##ModelTestingandEnviornmentsetting)
 <!--te-->
 
@@ -62,7 +63,7 @@ After applying the augmentations, the augmented images and masks are resized to 
 
 The incorporation of data augmentation techniques aids in improving the segmentation model's performance by providing it with more diverse training examples. This augmentation process helps the model learn robust and accurate segmentation boundaries, leading to better segmentation results on unseen images.
 
-## Transformed Dataset Size
+### Transformed Dataset Size
 
 After augmentation, the size of the transformed dataset is as follows:
 
